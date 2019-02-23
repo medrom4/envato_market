@@ -5,22 +5,22 @@
 
 /* Styles Reboot
 ====================*/
-@import "../../../node_modules/bootstrap/scss/functions";
-@import "../../../node_modules/bootstrap/scss/variables";
-@import "../../../node_modules/bootstrap/scss/mixins";
-@import "../../../node_modules/bootstrap/scss/reboot";
+//@import "../../../node_modules/bootstrap/scss/functions";
+//@import "../../../node_modules/bootstrap/scss/variables";
+//@import "../../../node_modules/bootstrap/scss/mixins";
+//@import "../../../node_modules/bootstrap/scss/reboot";
 
 
 ////////
 // Custom theme for bootstrap
 ////////
-@import "theme1";
+//@import "theme1";
 
 
 ////////
 // Project variables
 ////////
-@import "vars";
+//@import "vars";
 
 
 
@@ -32,7 +32,7 @@ Table of contents
 ## Default styles
 ## Grid
 ## Buttons
-## Intro
+## General
 ## FontAwesome
 *******************/
 
@@ -45,17 +45,18 @@ body {
 }
 
 
-////////
-// Bootstrap components
-////////
+// Bootstrap
+//====================*/
+@import "../../../node_modules/bootstrap/scss/bootstrap.min";
 
-/* ## Grid
-====================*/
-@import "../../../node_modules/bootstrap/scss/grid";
 
-/* ## Buttons
-====================*/
-@import "../../../node_modules/bootstrap/scss/buttons";
+///* ## Grid
+//====================*/
+//@import "../../../node_modules/bootstrap/scss/grid";
+
+///* ## Buttons
+//====================*/
+//@import "../../../node_modules/bootstrap/scss/buttons";
 
 
 
@@ -63,29 +64,29 @@ body {
 // Blocks
 ////////
 
-/* ## Intro
+/* ## General
 ====================*/
-@import "blocks/intro";
+@import "blocks/general";
 
 
 
 
 /* ## FontAwesome
 ====================*/
-@import "fontawesome/fa-regular";
-@import "fontawesome/fa-brands";
-@import "fontawesome/fa-solid";
-@import "fontawesome/fontawesome";
+//@import "fontawesome/fa-regular";
+//@import "fontawesome/fa-brands";
+//@import "fontawesome/fa-solid";
+//@import "fontawesome/fontawesome";
 
 
 ////////
 // Bootstrap utilities
 ////////
-@import "../../../node_modules/bootstrap/scss/utilities";
+//@import "../../../node_modules/bootstrap/scss/utilities";
 
 
 
 ////////
 // Helpers
 ////////
-@import "helpers";
+//@import "helpers";
