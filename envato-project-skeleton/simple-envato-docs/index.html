@@ -27,19 +27,19 @@
 
 <div class="container">
 
-    <h1>One Shop HTML Template Documentation</h1>
+    <h1>Online Art Gallery Shop HTML Template Documentation</h1>
     <p>Thank You for purchasing this template, I hope You enjoy it!</p>
 
     <div class="example  example--white">
         <h2>1. Template Structure</h2>
         <ul class="list">
             <li class="list__item">- You can find all files in <span class="snippet">app</span> folder</li>
-            <li class="list__item">- In <span class="snippet">app</span> folder you will see <span class="snippet">build</span> and <span class="snippet">src</span> folders</li>
-            <li class="list__item">- <span class="snippet">build</span> folder contain all compiled and ready to use files</li>
+            <li class="list__item">- In <span class="snippet">app</span> folder you will see <span class="snippet">dist</span> and <span class="snippet">src</span> folders</li>
+            <li class="list__item">- <span class="snippet">dist</span> folder contain all compiled and ready to use files</li>
             <li class="list__item">- <span class="snippet">src</span> folder contain all sources for your work</li>
             <li class="list__item">- CSS, js, images, fonts files you can find in <span class="snippet">assets</span> folder</li>
-            <li class="list__item">- CSS files you can find in <span class="snippet">build/assets/css</span> folder or <span class="snippet">src/assets/sass</span> folder with sources</li>
-            <li class="list__item">- JS files you can find in <span class="snippet">build/assets/js</span> folder or <span class="snippet">src/assets/js</span> folder with sources</li>
+            <li class="list__item">- CSS files you can find in <span class="snippet">dist/assets/css</span> folder or <span class="snippet">src/assets/sass</span> folder with sources</li>
+            <li class="list__item">- JS files you can find in <span class="snippet">dist/assets/js</span> folder or <span class="snippet">src/assets/js</span> folder with sources</li>
             <li class="list__item">- Fonts you can find in <span class="snippet">assets/fonts</span> folder</li>
             <li class="list__item">- You can find all UI elements in <span class="snippet">ui.html</span> file</li>
         </ul>
@@ -48,14 +48,14 @@
 
     <div class="example  example--white">
         <h2>2. How to edit template (for users)</h2>
-        <p>Better way to use sources in <span class="snippet">src</span> folder, but if you don't know all technologies you can simply edit <span class="snippet">build</span> files</p>
+        <p>Better way to use sources in <span class="snippet">src</span> folder, but if you don't know all technologies you can simply edit <span class="snippet">dist</span> files</p>
         <ul class="list">
             <li class="list__item">- <b>Change intro background image</b>. Upload your image to <span class="snippet">assets/i/</span> folder. Open <span class="snippet">style.css</span> file and find <span class="snippet">.intro</span> selector. In <span class="snippet">url(http://placehold.it/1980x700/333)</span> change url value to your image path. F.e. <span class="snippet">url("../i/image.jpg")</span></li>
             <li class="list__item">- <b>Change other images</b>. Upload your image to <span class="snippet">assets/i/</span> folder. Open <span class="snippet">index.html</span> file and find <span class="snippet">img</span> tag. Change the url to your image path.</li>
             <li class="list__item">- All texts you can change in <span class="snippet">.html</span> files</li>
             <p><b>- How to edit countdown</b></p>
             <ul class="list">
-                <li class="list__item">Open file <span class="snippet">build/assets/js/main.js</span></li>
+                <li class="list__item">Open file <span class="snippet">dist/assets/js/main.js</span></li>
                 <li class="list__item">Find and change <span class="snippet">2020/04/13 15:59:59</span> to date which you need</li>
             </ul>
         </ul>
@@ -68,14 +68,14 @@
             <li class="list__item">1. Open <span class="snippet">cmd</span> and go to the projects folder</li>
             <li class="list__item">2. Run <span class="snippet">npm i</span> to install all gulp dependencies</li>
             <li class="list__item">3. Run <span class="snippet">bower install</span> to install all bower dependencies</li>
-            <li class="list__item">4. Run <span class="snippet">gulp</span> to clean build folder, build the new project, run local server and start watching changes</li>
-            <li class="list__item">4.2 Run <span class="snippet">gulp build</span> to build project</li>
+            <li class="list__item">4. Run <span class="snippet">gulp</span> to clean dist folder, dist the new project, run local server and start watching changes</li>
+            <li class="list__item">4.2 Run <span class="snippet">gulp dist</span> to dist project</li>
             <li class="list__item">4.3 Run <span class="snippet">gulp watch</span> to watch changes</li>
-            <li class="list__item">4.4 Run <span class="snippet">gulp html:build</span> to build only html files</li>
-            <li class="list__item">4.5 Run <span class="snippet">gulp css:build</span> to build only css files</li>
-            <li class="list__item">4.6 Run <span class="snippet">gulp fonts:build</span> to build only fonts</li>
-            <li class="list__item">4.7 Run <span class="snippet">gulp image:build</span> to build only images</li>
-            <li class="list__item">4.8 Run <span class="snippet">gulp clean</span> to delete build folder</li>
+            <li class="list__item">4.4 Run <span class="snippet">gulp html:dist</span> to dist only html files</li>
+            <li class="list__item">4.5 Run <span class="snippet">gulp css:dist</span> to dist only css files</li>
+            <li class="list__item">4.6 Run <span class="snippet">gulp fonts:dist</span> to dist only fonts</li>
+            <li class="list__item">4.7 Run <span class="snippet">gulp image:dist</span> to dist only images</li>
+            <li class="list__item">4.8 Run <span class="snippet">gulp clean</span> to delete dist folder</li>
         </ul>
 
         <p><b>How to work with html</b></p>
