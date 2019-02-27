@@ -1,0 +1,10 @@
+{
+	"name": "envanto",
+	"description": "Education Landing",
+	"author": "medrom4",
+	"devDependencies": {
+		"jquery": "^3.0.0",
+		"wow": "wow.js#^1.1.2",
+		"slick-carousel": "slick.js#^1.6.0"
+	}
+}

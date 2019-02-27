@@ -1,0 +1,92 @@
+////////
+// Bootstrap settings
+////////
+
+
+/* Styles Reboot
+====================*/
+//@import "../../../node_modules/bootstrap/scss/functions";
+//@import "../../../node_modules/bootstrap/scss/variables";
+//@import "../../../node_modules/bootstrap/scss/mixins";
+//@import "../../../node_modules/bootstrap/scss/reboot";
+
+
+////////
+// Custom theme for bootstrap
+////////
+//@import "theme1";
+
+
+////////
+// Project variables
+////////
+//@import "vars";
+
+
+
+
+
+/*******************
+Table of contents
+
+## Default styles
+## Grid
+## Buttons
+## General
+## FontAwesome
+*******************/
+
+
+/* ## Default styles
+====================*/
+
+body {
+    margin: 0;
+}
+
+
+// Bootstrap
+//====================*/
+@import "../../../node_modules/bootstrap/scss/bootstrap.min";
+
+
+///* ## Grid
+//====================*/
+//@import "../../../node_modules/bootstrap/scss/grid";
+
+///* ## Buttons
+//====================*/
+//@import "../../../node_modules/bootstrap/scss/buttons";
+
+
+
+////////
+// Blocks
+////////
+
+/* ## General
+====================*/
+@import "blocks/general";
+
+
+
+
+/* ## FontAwesome
+====================*/
+//@import "fontawesome/fa-regular";
+//@import "fontawesome/fa-brands";
+//@import "fontawesome/fa-solid";
+//@import "fontawesome/fontawesome";
+
+
+////////
+// Bootstrap utilities
+////////
+//@import "../../../node_modules/bootstrap/scss/utilities";
+
+
+
+////////
+// Helpers
+////////
+//@import "helpers";
